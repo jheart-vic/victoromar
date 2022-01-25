@@ -13,11 +13,17 @@
   <p id="description">Fill The Form</p>
   <form id='survey-form'>
     <label for="name" id="name-label">Name:</label>
-     <input type='text' id='name' required>
-     <label for="name" id="email-label">Email:</label>
-     <input type="email" name="" id="email" required>
-     <label for="name" id="number-label">Phone Number:</label>
-     <input type='number' id='number' min="5" max="10" required>
+     <input type='text' id='name' placeholder="Enter your name" required>
+     <label for="email" id="email-label">Email:</label>
+     <input type="email" name="" id="email" placeholder="Enter your email"required>
+     <label for="number" id="number-label">Phone Number:</label>
+     <input type='number' id='number' min="5" max="10" placeholder="Enter your phone number" required>
+     <select id="dropdown">
+       <option value="Country">Afghanistan</option> 
+       <option value="Country">Albania</option> 
+       <option value="Country">DRC</option> 
+     </select>
+
   </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
